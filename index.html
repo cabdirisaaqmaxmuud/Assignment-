@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Checker</title>
+</head>
+<body>
+
+<script>
+    let iskuDay = 0;
+
+    while (iskuDay < 5) {
+        let karis = Number(prompt("Enter your number"));
+
+        iskuDay++;
+
+        if (karis <= 15) {
+            alert("Less than  15");
+        } else {
+            alert("More than 15");
+        }
+
+        if (iskuDay === 1) {
+            alert("Waxaad isku dayday 1 mar");
+        } else if (iskuDay === 2) {
+            alert("Waxaad isku dayday 2 mar");
+        } else if (iskuDay === 3) {
+            alert("Waxaad isku dayday 3 mar");
+        } else if (iskuDay === 4) {
+            alert("Waxaad isku dayday 4 mar");
+        } else if (iskuDay === 5) {
+            alert("Waxaad isku dayday 5 mar");
+        }
+    }
+
+    alert(" isku day waka dhamaden!");
+</script>
+
+</body>
+</html>
